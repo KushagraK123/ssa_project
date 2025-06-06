@@ -2,24 +2,26 @@
 
 ## Description
 
-This project is a practical implementation of Software System Architecture concepts, developed as part of academic coursework. It focuses on designing a robust and scalable software system by applying architectural principles such as modularization, separation of concerns, and design patterns. The objective is to simulate a real-world software development environment where architectural decisions directly impact code maintainability and system performance.
+This project is a **scalable, platform-independent vending machine system** developed as part of a Software System Architecture course. It demonstrates the application of architectural principles and design patterns to build a modular, maintainable, and extensible software system.
 
-The system involves various components interacting together to form a cohesive architecture, potentially including modules such as:
+The system is designed with a **modular architecture** that ensures **low coupling** and **high cohesion**, making it easy to extend or modify individual components without affecting the overall structure. The architecture incorporates several well-known design patterns, including:
 
-- User management
-- Service or business logic layers
-- Data persistence layers
-- Presentation interfaces (CLI or GUI)
+- **State Pattern** – for managing the internal state transitions of the vending machine
+- **Abstract Factory Pattern** – for creating related objects without specifying their concrete classes
+- **Strategy Pattern** – for defining interchangeable algorithms (e.g., payment processing, dispensing strategies)
 
-> This repository demonstrates how theoretical software architecture principles can be applied in practice, using Java as the primary programming language.
+This project emphasizes best practices in software architecture such as separation of concerns, component reusability, and clear interface boundaries. It is implemented in **Java**, making it cross-platform and easy to deploy across different environments.
 
 ## Features
 
-- Modular Java architecture following SOLID principles
-- Emphasis on component-based design
-- Clear separation between layers (presentation, logic, data)
-- Well-documented code and structure
-- Ready for extension and testing
+- Scalable vending machine simulation
+- Modular design following SOLID principles
+- Uses State, Abstract Factory, and Strategy design patterns
+- Platform-independent Java implementation
+- Clear separation between UI, logic, and data layers
+- Designed for ease of testing and extension
+
+
 
 ## Getting Started
 
