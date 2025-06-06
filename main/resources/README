@@ -1,0 +1,8 @@
+Run Following Steps to Run the vending Machine System
+
+PreRequisites: Java
+
+Steps
+1) Enter in Folder Java, in the source Code
+2) Run: javac -d out $(find . -name "*.java")
+3) Run: java -cp out vending.machine.driver.ApplicationDriver
